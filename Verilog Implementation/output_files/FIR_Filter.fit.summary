@@ -1,15 +1,15 @@
-Fitter Status : Successful - Sun Apr 14 00:06:32 2019
-Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Fitter Status : Successful - Tue Apr 16 16:44:47 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 Revision Name : FIR_Filter
-Top-level Entity Name : tap
+Top-level Entity Name : top
 Family : Cyclone IV GX
 Device : EP4CGX150DF31C7
 Timing Models : Final
-Total logic elements : 17 / 149,760 ( < 1 % )
-    Total combinational functions : 17 / 149,760 ( < 1 % )
-    Dedicated logic registers : 9 / 149,760 ( < 1 % )
-Total registers : 9
-Total pins : 16 / 508 ( 3 % )
+Total logic elements : 16 / 149,760 ( < 1 % )
+    Total combinational functions : 12 / 149,760 ( < 1 % )
+    Dedicated logic registers : 13 / 149,760 ( < 1 % )
+Total registers : 13
+Total pins : 11 / 508 ( 2 % )
 Total virtual pins : 0
 Total memory bits : 0 / 6,635,520 ( 0 % )
 Embedded Multiplier 9-bit elements : 0 / 720 ( 0 % )

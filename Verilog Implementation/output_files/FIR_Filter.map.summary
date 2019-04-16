@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Sun Apr 14 00:06:02 2019
-Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Analysis & Synthesis Status : Successful - Tue Apr 16 16:44:25 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 Revision Name : FIR_Filter
-Top-level Entity Name : tap
+Top-level Entity Name : top
 Family : Cyclone IV GX
-Total logic elements : 20
-    Total combinational functions : 17
-    Dedicated logic registers : 9
-Total registers : 9
-Total pins : 16
+Total logic elements : 18
+    Total combinational functions : 12
+    Dedicated logic registers : 13
+Total registers : 13
+Total pins : 11
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0

@@ -7,6 +7,7 @@ module shift_tap (
 	output wire[9:0] o_sum
 );
 
+reg [5:0] product;
 
 always@(posedge i_clk)
 begin

@@ -1,6 +1,6 @@
 EDA Netlist Writer report for FIR_Filter
-Sun Apr 14 00:06:47 2019
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Tue Apr 16 16:45:02 2019
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
 ---------------------
@@ -17,7 +17,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2018  Intel Corporation. All rights reserved.
+Copyright (C) 2017  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -36,9 +36,9 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sun Apr 14 00:06:47 2019 ;
+; EDA Netlist Writer Status ; Successful - Tue Apr 16 16:45:02 2019 ;
 ; Revision Name             ; FIR_Filter                            ;
-; Top-level Entity Name     ; tap                                   ;
+; Top-level Entity Name     ; top                                   ;
 ; Family                    ; Cyclone IV GX                         ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -66,20 +66,20 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                                                                 ;
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                                                            ;
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; C:/Users/togo9/iCloudDrive/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/FIR_Filter_7_1200mv_85c_slow.vo     ;
-; C:/Users/togo9/iCloudDrive/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/FIR_Filter_7_1200mv_0c_slow.vo      ;
-; C:/Users/togo9/iCloudDrive/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/FIR_Filter_min_1200mv_0c_fast.vo    ;
-; C:/Users/togo9/iCloudDrive/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/FIR_Filter.vo                       ;
-; C:/Users/togo9/iCloudDrive/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/FIR_Filter_7_1200mv_85c_v_slow.sdo  ;
-; C:/Users/togo9/iCloudDrive/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/FIR_Filter_7_1200mv_0c_v_slow.sdo   ;
-; C:/Users/togo9/iCloudDrive/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/FIR_Filter_min_1200mv_0c_v_fast.sdo ;
-; C:/Users/togo9/iCloudDrive/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/FIR_Filter_v.sdo                    ;
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                                       ;
++----------------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                                  ;
++----------------------------------------------------------------------------------------------------------------------------------+
+; /Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/FIR_Filter_7_1200mv_85c_slow.vo     ;
+; /Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/FIR_Filter_7_1200mv_0c_slow.vo      ;
+; /Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/FIR_Filter_min_1200mv_0c_fast.vo    ;
+; /Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/FIR_Filter.vo                       ;
+; /Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/FIR_Filter_7_1200mv_85c_v_slow.sdo  ;
+; /Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/FIR_Filter_7_1200mv_0c_v_slow.sdo   ;
+; /Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/FIR_Filter_min_1200mv_0c_v_fast.sdo ;
+; /Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/FIR_Filter_v.sdo                    ;
++----------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -87,21 +87,21 @@ refer to the applicable agreement for further details.
 +-----------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
-    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Apr 14 00:06:45 2019
+    Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+    Info: Processing started: Tue Apr 16 16:45:00 2019
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off FIR_Filter -c FIR_Filter
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file FIR_Filter_7_1200mv_85c_slow.vo in folder "C:/Users/togo9/iCloudDrive/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file FIR_Filter_7_1200mv_0c_slow.vo in folder "C:/Users/togo9/iCloudDrive/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file FIR_Filter_min_1200mv_0c_fast.vo in folder "C:/Users/togo9/iCloudDrive/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file FIR_Filter.vo in folder "C:/Users/togo9/iCloudDrive/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file FIR_Filter_7_1200mv_85c_v_slow.sdo in folder "C:/Users/togo9/iCloudDrive/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file FIR_Filter_7_1200mv_0c_v_slow.sdo in folder "C:/Users/togo9/iCloudDrive/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file FIR_Filter_min_1200mv_0c_v_fast.sdo in folder "C:/Users/togo9/iCloudDrive/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file FIR_Filter_v.sdo in folder "C:/Users/togo9/iCloudDrive/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file FIR_Filter_7_1200mv_85c_slow.vo in folder "/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file FIR_Filter_7_1200mv_0c_slow.vo in folder "/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file FIR_Filter_min_1200mv_0c_fast.vo in folder "/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file FIR_Filter.vo in folder "/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file FIR_Filter_7_1200mv_85c_v_slow.sdo in folder "/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file FIR_Filter_7_1200mv_0c_v_slow.sdo in folder "/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file FIR_Filter_min_1200mv_0c_v_fast.sdo in folder "/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file FIR_Filter_v.sdo in folder "/Desktop/Buffalo_Spring_2019/EE_450/Final_project/Verilog Implementation/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4738 megabytes
-    Info: Processing ended: Sun Apr 14 00:06:47 2019
+    Info: Peak virtual memory: 642 megabytes
+    Info: Processing ended: Tue Apr 16 16:45:02 2019
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

@@ -12,7 +12,7 @@ reg [5:0] product;
 always@(posedge i_clk)
 begin
 	o_dff <= i_dff;
-	product <= o_dff * coeff;
+	product <= i_dff * coeff;
 end
 
 assign o_sum = i_sum + product;
