@@ -1,5 +1,5 @@
 Flow report for FIR_Filter
-Tue Apr 16 16:45:02 2019
+Fri Apr 19 13:34:13 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,26 +40,26 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Apr 16 16:45:02 2019       ;
+; Flow Status                        ; Successful - Fri Apr 19 13:34:13 2019       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; FIR_Filter                                  ;
-; Top-level Entity Name              ; top                                         ;
+; Top-level Entity Name              ; testbench_filter                            ;
 ; Family                             ; Cyclone IV GX                               ;
 ; Device                             ; EP4CGX150DF31C7                             ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 16 / 149,760 ( < 1 % )                      ;
-;     Total combinational functions  ; 12 / 149,760 ( < 1 % )                      ;
-;     Dedicated logic registers      ; 13 / 149,760 ( < 1 % )                      ;
-; Total registers                    ; 13                                          ;
-; Total pins                         ; 11 / 508 ( 2 % )                            ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0 / 6,635,520 ( 0 % )                       ;
-; Embedded Multiplier 9-bit elements ; 0 / 720 ( 0 % )                             ;
-; Total GXB Receiver Channel PCS     ; 0 / 8 ( 0 % )                               ;
-; Total GXB Receiver Channel PMA     ; 0 / 8 ( 0 % )                               ;
-; Total GXB Transmitter Channel PCS  ; 0 / 8 ( 0 % )                               ;
-; Total GXB Transmitter Channel PMA  ; 0 / 8 ( 0 % )                               ;
-; Total PLLs                         ; 0 / 8 ( 0 % )                               ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total GXB Receiver Channel PCS     ; N/A until Partition Merge                   ;
+; Total GXB Receiver Channel PMA     ; N/A until Partition Merge                   ;
+; Total GXB Transmitter Channel PCS  ; N/A until Partition Merge                   ;
+; Total GXB Transmitter Channel PMA  ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -68,69 +68,65 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/16/2019 16:44:09 ;
+; Start date & time ; 04/19/2019 13:33:57 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; FIR_Filter          ;
 +-------------------+---------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                            ;
-+-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
-+-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 121381527787.155544744807116           ; --            ; --          ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --             ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --             ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; top         ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; top         ; Top            ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; top         ; Top            ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --             ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --             ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --             ;
-; TOP_LEVEL_ENTITY                    ; top                                    ; FIR_Filter    ; --          ; --             ;
-+-------------------------------------+----------------------------------------+---------------+-------------+----------------+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                    ;
++--------------------------------------+----------------------------------------+---------------+------------------+------------------+
+; Assignment Name                      ; Value                                  ; Default Value ; Entity Name      ; Section Id       ;
++--------------------------------------+----------------------------------------+---------------+------------------+------------------+
+; COMPILER_SIGNATURE_ID                ; 121381527787.155569523701468           ; --            ; --               ; --               ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --               ; testbench_filter ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench_filter                       ; --            ; --               ; eda_simulation   ;
+; EDA_NETLIST_WRITER_OUTPUT_DIR        ; simulation/modelsim                    ; --            ; --               ; eda_simulation   ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --               ; eda_simulation   ;
+; EDA_RUN_TOOL_AUTOMATICALLY           ; On                                     ; --            ; --               ; eda_simulation   ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>        ; --               ; --               ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; NOT_USED                               ; --            ; --               ; eda_simulation   ;
+; EDA_TEST_BENCH_FILE                  ; testbench_filter.v                     ; --            ; --               ; testbench_filter ;
+; EDA_TEST_BENCH_MODULE_NAME           ; testbench_filter                       ; --            ; --               ; testbench_filter ;
+; EDA_TEST_BENCH_NAME                  ; testbench_filter                       ; --            ; --               ; eda_simulation   ;
+; EDA_TIME_SCALE                       ; 1 ns                                   ; --            ; --               ; eda_simulation   ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --               ; --               ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --               ; --               ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                   ; --            ; --               ; --               ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; testbench_filter ; Top              ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; testbench_filter ; Top              ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; testbench_filter ; Top              ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --               ; --               ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --               ; --               ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --               ; --               ;
+; TOP_LEVEL_ENTITY                     ; testbench_filter                       ; FIR_Filter    ; --               ; --               ;
++--------------------------------------+----------------------------------------+---------------+------------------+------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                             ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:16     ; 1.0                     ; 761 MB              ; 00:00:32                           ;
-; Fitter                    ; 00:00:21     ; 1.0                     ; 1751 MB             ; 00:00:30                           ;
-; Assembler                 ; 00:00:05     ; 1.0                     ; 679 MB              ; 00:00:05                           ;
-; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 783 MB              ; 00:00:03                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 642 MB              ; 00:00:02                           ;
-; Total                     ; 00:00:48     ; --                      ; --                  ; 00:01:12                           ;
-+---------------------------+--------------+-------------------------+---------------------+------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                          ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Elaboration ; 00:00:17     ; 1.0                     ; 698 MB              ; 00:00:34                           ;
+; Total                  ; 00:00:17     ; --                      ; --                  ; 00:00:34                           ;
++------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                         ;
-+---------------------------+------------------+------------+------------+----------------+
-; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+---------------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis      ; DESKTOP-AM78PS3  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter                    ; DESKTOP-AM78PS3  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler                 ; DESKTOP-AM78PS3  ; Windows 10 ; 10.0       ; x86_64         ;
-; TimeQuest Timing Analyzer ; DESKTOP-AM78PS3  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-AM78PS3  ; Windows 10 ; 10.0       ; x86_64         ;
-+---------------------------+------------------+------------+------------+----------------+
++--------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                      ;
++------------------------+------------------+------------+------------+----------------+
+; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++------------------------+------------------+------------+------------+----------------+
+; Analysis & Elaboration ; DESKTOP-AM78PS3  ; Windows 10 ; 10.0       ; x86_64         ;
++------------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off FIR_Filter -c FIR_Filter
-quartus_fit --read_settings_files=off --write_settings_files=off FIR_Filter -c FIR_Filter
-quartus_asm --read_settings_files=off --write_settings_files=off FIR_Filter -c FIR_Filter
-quartus_sta FIR_Filter -c FIR_Filter
-quartus_eda --read_settings_files=off --write_settings_files=off FIR_Filter -c FIR_Filter
+quartus_map --read_settings_files=on --write_settings_files=off FIR_Filter -c FIR_Filter --analysis_and_elaboration
 
 
 

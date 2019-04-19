@@ -1,0 +1,843 @@
+$date
+	Fri Apr 19 13:49:55 2019
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module testbench_filter $end
+$var wire 10 ! result [9:0] $end
+$var reg 1 " clk $end
+$var reg 3 # sample [2:0] $end
+$scope module DUT $end
+$var wire 1 " i_clk $end
+$var wire 10 $ result [9:0] $end
+$var wire 3 % signal [2:0] $end
+$scope begin FIR_filter[0] $end
+$scope begin genblk2 $end
+$scope module u_tap $end
+$var wire 3 & coeff [2:0] $end
+$var wire 1 " i_clk $end
+$var wire 3 ' i_dff [2:0] $end
+$var wire 10 ( i_sum [9:0] $end
+$var wire 10 ) o_sum [9:0] $end
+$var reg 3 * o_dff [2:0] $end
+$var reg 6 + product [5:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin FIR_filter[1] $end
+$scope begin genblk3 $end
+$scope module u_tap $end
+$var wire 3 , coeff [2:0] $end
+$var wire 1 " i_clk $end
+$var wire 3 - i_dff [2:0] $end
+$var wire 10 . i_sum [9:0] $end
+$var wire 10 / o_sum [9:0] $end
+$var reg 3 0 o_dff [2:0] $end
+$var reg 6 1 product [5:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin FIR_filter[2] $end
+$scope begin genblk3 $end
+$scope module u_tap $end
+$var wire 3 2 coeff [2:0] $end
+$var wire 1 " i_clk $end
+$var wire 3 3 i_dff [2:0] $end
+$var wire 10 4 i_sum [9:0] $end
+$var wire 10 5 o_sum [9:0] $end
+$var reg 3 6 o_dff [2:0] $end
+$var reg 6 7 product [5:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin FIR_filter[3] $end
+$scope begin genblk3 $end
+$scope module u_tap $end
+$var wire 3 8 coeff [2:0] $end
+$var wire 1 " i_clk $end
+$var wire 3 9 i_dff [2:0] $end
+$var wire 10 : i_sum [9:0] $end
+$var wire 10 ; o_sum [9:0] $end
+$var reg 3 < o_dff [2:0] $end
+$var reg 6 = product [5:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin FIR_filter[4] $end
+$scope begin genblk3 $end
+$scope module u_tap $end
+$var wire 3 > coeff [2:0] $end
+$var wire 1 " i_clk $end
+$var wire 3 ? i_dff [2:0] $end
+$var wire 10 @ i_sum [9:0] $end
+$var wire 10 A o_sum [9:0] $end
+$var reg 3 B o_dff [2:0] $end
+$var reg 6 C product [5:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin FIR_filter[5] $end
+$scope begin genblk3 $end
+$scope module u_tap $end
+$var wire 3 D coeff [2:0] $end
+$var wire 1 " i_clk $end
+$var wire 3 E i_dff [2:0] $end
+$var wire 10 F i_sum [9:0] $end
+$var wire 10 G o_sum [9:0] $end
+$var reg 3 H o_dff [2:0] $end
+$var reg 6 I product [5:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin FIR_filter[6] $end
+$scope begin genblk3 $end
+$scope module u_tap $end
+$var wire 3 J coeff [2:0] $end
+$var wire 1 " i_clk $end
+$var wire 3 K i_dff [2:0] $end
+$var wire 10 L i_sum [9:0] $end
+$var wire 10 M o_sum [9:0] $end
+$var reg 3 N o_dff [2:0] $end
+$var reg 6 O product [5:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin FIR_filter[7] $end
+$scope begin genblk3 $end
+$scope module u_tap $end
+$var wire 3 P coeff [2:0] $end
+$var wire 1 " i_clk $end
+$var wire 3 Q i_dff [2:0] $end
+$var wire 10 R i_sum [9:0] $end
+$var wire 10 S o_sum [9:0] $end
+$var reg 3 T o_dff [2:0] $end
+$var reg 6 U product [5:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx U
+bx T
+bx S
+bx R
+bx Q
+b111 P
+bx O
+bx N
+bx M
+bx L
+bx K
+b110 J
+bx I
+bx H
+bx G
+bx F
+bx E
+b101 D
+bx C
+bx B
+bx A
+bx @
+bx ?
+b100 >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+b11 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+b10 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+b1 ,
+bx +
+bx *
+bx )
+b0 (
+b0 '
+b0 &
+b0 %
+bx $
+b0 #
+0"
+bx !
+$end
+#10
+b0 )
+b0 .
+b0 +
+b0 *
+b0 -
+1"
+#20
+0"
+#30
+b0 /
+b0 4
+b0 1
+b0 0
+b0 3
+1"
+#40
+0"
+#50
+b0 5
+b0 :
+b0 7
+b0 6
+b0 9
+1"
+#60
+0"
+#70
+b0 ;
+b0 @
+b0 =
+b0 <
+b0 ?
+1"
+#80
+0"
+#90
+b0 A
+b0 F
+b0 C
+b0 B
+b0 E
+1"
+#100
+0"
+#110
+b0 G
+b0 L
+b0 I
+b0 H
+b0 K
+1"
+#120
+0"
+#130
+b0 M
+b0 R
+b0 O
+b0 N
+b0 Q
+1"
+#140
+0"
+#150
+b0 !
+b0 $
+b0 S
+b0 U
+b0 T
+1"
+#160
+0"
+#170
+b110 *
+b110 -
+1"
+b110 #
+b110 %
+b110 '
+#180
+0"
+#190
+b110 !
+b110 $
+b110 S
+b110 M
+b110 R
+b110 G
+b110 L
+b110 A
+b110 F
+b110 ;
+b110 @
+b110 5
+b110 :
+b110 /
+b110 4
+b110 1
+b110 0
+b110 3
+b100 *
+b100 -
+1"
+b100 #
+b100 %
+b100 '
+#200
+0"
+#210
+b1 *
+b1 -
+b100 /
+b100 4
+b100 1
+b100 0
+b100 3
+b10000 !
+b10000 $
+b10000 S
+b10000 M
+b10000 R
+b10000 G
+b10000 L
+b10000 A
+b10000 F
+b10000 ;
+b10000 @
+b10000 5
+b10000 :
+b1100 7
+b110 6
+b110 9
+1"
+b1 #
+b1 %
+b1 '
+#220
+0"
+#230
+b10010 =
+b110 <
+b110 ?
+b1000 7
+b100 6
+b100 9
+b11011 !
+b11011 $
+b11011 S
+b11011 M
+b11011 R
+b11011 G
+b11011 L
+b11011 A
+b11011 F
+b11011 ;
+b11011 @
+b1001 5
+b1001 :
+b1 /
+b1 4
+b1 1
+b1 0
+b1 3
+b101 *
+b101 -
+1"
+b101 #
+b101 %
+b101 '
+#240
+0"
+#250
+b10 *
+b10 -
+b101 /
+b101 4
+b101 1
+b101 0
+b101 3
+b111 5
+b111 :
+b10 7
+b1 6
+b1 9
+b10011 ;
+b10011 @
+b1100 =
+b100 <
+b100 ?
+b101011 !
+b101011 $
+b101011 S
+b101011 M
+b101011 R
+b101011 G
+b101011 L
+b101011 A
+b101011 F
+b11000 C
+b110 B
+b110 E
+1"
+b10 #
+b10 %
+b10 '
+#260
+0"
+#270
+b11110 I
+b110 H
+b110 K
+b10000 C
+b100 B
+b100 E
+b11 =
+b1 <
+b1 ?
+b1010 7
+b101 6
+b101 9
+b111101 !
+b111101 $
+b111101 S
+b111101 M
+b111101 R
+b111101 G
+b111101 L
+b11111 A
+b11111 F
+b1111 ;
+b1111 @
+b1100 5
+b1100 :
+b10 /
+b10 4
+b10 1
+b10 0
+b10 3
+b101 *
+b101 -
+1"
+b101 #
+b101 %
+b101 '
+#280
+0"
+#290
+b1 *
+b1 -
+b101 /
+b101 4
+b101 1
+b101 0
+b101 3
+b1001 5
+b1001 :
+b100 7
+b10 6
+b10 9
+b11000 ;
+b11000 @
+b1111 =
+b101 <
+b101 ?
+b11100 A
+b11100 F
+b100 C
+b1 B
+b1 E
+b110000 G
+b110000 L
+b10100 I
+b100 H
+b100 K
+b1010100 !
+b1010100 $
+b1010100 S
+b1010100 M
+b1010100 R
+b100100 O
+b110 N
+b110 Q
+1"
+b1 #
+b1 %
+b1 '
+#300
+0"
+#310
+b101010 U
+b110 T
+b11000 O
+b100 N
+b100 Q
+b101 I
+b1 H
+b1 K
+b10100 C
+b101 B
+b101 E
+b110 =
+b10 <
+b10 ?
+b1010 7
+b101 6
+b101 9
+b1101100 !
+b1101100 $
+b1101100 S
+b1000010 M
+b1000010 R
+b101010 G
+b101010 L
+b100101 A
+b100101 F
+b10001 ;
+b10001 @
+b1011 5
+b1011 :
+b1 /
+b1 4
+b1 1
+b1 0
+b1 3
+b0 *
+b0 -
+1"
+b0 #
+b0 %
+b0 '
+#320
+0"
+#330
+b111 *
+b111 -
+b0 /
+b0 4
+b0 1
+b0 0
+b0 3
+b10 5
+b10 :
+b10 7
+b1 6
+b1 9
+b10001 ;
+b10001 @
+b1111 =
+b101 <
+b101 ?
+b11001 A
+b11001 F
+b1000 C
+b10 B
+b10 E
+b110010 G
+b110010 L
+b11001 I
+b101 H
+b101 K
+b111000 M
+b111000 R
+b110 O
+b1 N
+b1 Q
+b1010100 !
+b1010100 $
+b1010100 S
+b11100 U
+b100 T
+1"
+b111 #
+b111 %
+b111 '
+#340
+0"
+#350
+b111 U
+b1 T
+b11110 O
+b101 N
+b101 Q
+b1010 I
+b10 H
+b10 K
+b10100 C
+b101 B
+b101 E
+b11 =
+b1 <
+b1 ?
+b0 7
+b0 6
+b0 9
+b1001101 !
+b1001101 $
+b1001101 S
+b1000110 M
+b1000110 R
+b101000 G
+b101000 L
+b11110 A
+b11110 F
+b1010 ;
+b1010 @
+b111 5
+b111 :
+b111 /
+b111 4
+b111 1
+b111 0
+b111 3
+b10 *
+b10 -
+1"
+b10 #
+b10 %
+b10 '
+#360
+0"
+#370
+b10 /
+b10 4
+b10 1
+b10 0
+b10 3
+b10000 5
+b10000 :
+b1110 7
+b111 6
+b111 9
+b10000 ;
+b10000 @
+b0 =
+b0 <
+b0 ?
+b10100 A
+b10100 F
+b100 C
+b1 B
+b1 E
+b101101 G
+b101101 L
+b11001 I
+b101 H
+b101 K
+b111001 M
+b111001 R
+b1100 O
+b10 N
+b10 Q
+b1011100 !
+b1011100 $
+b1011100 S
+b100011 U
+b101 T
+1"
+#380
+0"
+#390
+b1110 U
+b10 T
+b11110 O
+b101 N
+b101 Q
+b101 I
+b1 H
+b1 K
+b0 C
+b0 B
+b0 E
+b10101 =
+b111 <
+b111 ?
+b1001100 !
+b1001100 $
+b1001100 S
+b111110 M
+b111110 R
+b100000 G
+b100000 L
+b11011 A
+b11011 F
+b11011 ;
+b11011 @
+b110 5
+b110 :
+b100 7
+b10 6
+b10 9
+b0 *
+b0 -
+1"
+b0 #
+b0 %
+b0 '
+#400
+0"
+#410
+b100 5
+b100 :
+b0 /
+b0 4
+b0 1
+b0 0
+b0 3
+b1010 ;
+b1010 @
+b110 =
+b10 <
+b10 ?
+b100110 A
+b100110 F
+b11100 C
+b111 B
+b111 E
+b100110 G
+b100110 L
+b0 I
+b0 H
+b0 K
+b101100 M
+b101100 R
+b110 O
+b1 N
+b1 Q
+b1001111 !
+b1001111 $
+b1001111 S
+b100011 U
+b101 T
+1"
+#420
+0"
+#430
+b111 U
+b1 T
+b0 O
+b0 N
+b0 Q
+b100011 I
+b111 H
+b111 K
+b1000 C
+b10 B
+b10 E
+b111000 !
+b111000 $
+b111000 S
+b110001 M
+b110001 R
+b110001 G
+b110001 L
+b1110 A
+b1110 F
+b110 ;
+b110 @
+b0 5
+b0 :
+b0 7
+b0 6
+b0 9
+1"
+#440
+0"
+#450
+b1000 A
+b1000 F
+b0 ;
+b0 @
+b0 =
+b0 <
+b0 ?
+b10010 G
+b10010 L
+b1010 I
+b10 H
+b10 K
+b111100 M
+b111100 R
+b101010 O
+b111 N
+b111 Q
+b111100 !
+b111100 $
+b111100 S
+b0 U
+b0 T
+1"
+#460
+0"
+#470
+b110001 U
+b111 T
+b1100 O
+b10 N
+b10 Q
+b1000111 !
+b1000111 $
+b1000111 S
+b10110 M
+b10110 R
+b1010 G
+b1010 L
+b0 A
+b0 F
+b0 C
+b0 B
+b0 E
+1"
+#480
+0"
+#490
+b1100 M
+b1100 R
+b0 G
+b0 L
+b0 I
+b0 H
+b0 K
+b11010 !
+b11010 $
+b11010 S
+b1110 U
+b10 T
+1"
+#500
+0"
+#510
+b1110 !
+b1110 $
+b1110 S
+b0 M
+b0 R
+b0 O
+b0 N
+b0 Q
+1"
+#520
+0"
+#530
+b0 !
+b0 $
+b0 S
+b0 U
+b0 T
+1"
+#540
+0"
+#550
+1"
+#560
+0"
+#570
+1"
+#580
+0"
+#590
+1"
+#600
+0"
+#610
+1"

@@ -1,0 +1,47 @@
+module fir_filter(
+	input CLOCK_50,
+	input reg [6:0] x_n,
+	
+	output reg [6:0] y_n
+);
+
+// Filter coefficients stored into a block of memory
+reg [2:0] coeffs [2:0];
+coeffs[0] = 3'b4;
+coeffs[1] = 3'b1;
+coeffs[2] = 3'b2;
+
+
+// Slow clk to see the output of the filter
+wire slow_clk = 0;
+parameter integer slow_cnt = 50000000;
+reg [25:0] cnt = 26'd0;
+
+
+// Slow clk logic
+always@(posedge CLOCK_50) begin
+	cnt <= cnt + 1;
+	if (cnt > slow_cnt) begin
+		slow_clk <= !slow_clk;
+		cnt <= 26'd0;
+	end
+end
+
+// Use the generate feature to instantiate alot of taps interconnected to each other
+genvar i;
+generate
+
+for (i=0; i<2; i=i+1)
+begin : Filter
+	tap u_tap(
+		.i_clk(),
+		.i_tap_dff(i_sample),
+		.o_tap_dff(),
+		.i_tap_sum(),
+		.o_tap_sum()
+	);
+end
+
+endgenerate
+
+endmodule

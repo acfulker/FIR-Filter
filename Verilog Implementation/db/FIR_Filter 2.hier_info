@@ -1,0 +1,27 @@
+|tap
+I_CLK => o_mul[0]~reg0.CLK
+I_CLK => o_mul[1]~reg0.CLK
+I_CLK => o_mul[2]~reg0.CLK
+I_CLK => o_mul[3]~reg0.CLK
+I_CLK => o_mul[4]~reg0.CLK
+I_CLK => o_mul[5]~reg0.CLK
+I_CLK => o_dff[0]~reg0.CLK
+I_CLK => o_dff[1]~reg0.CLK
+I_CLK => o_dff[2]~reg0.CLK
+i_dff[0] => o_dff[0]~reg0.DATAIN
+i_dff[1] => o_dff[1]~reg0.DATAIN
+i_dff[2] => o_dff[2]~reg0.DATAIN
+coeff[0] => Mult0.IN2
+coeff[1] => Mult0.IN1
+coeff[2] => Mult0.IN0
+o_mul[0] << o_mul[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_mul[1] << o_mul[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_mul[2] << o_mul[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_mul[3] << o_mul[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_mul[4] << o_mul[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_mul[5] << o_mul[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_dff[0] << o_dff[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_dff[1] << o_dff[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_dff[2] << o_dff[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

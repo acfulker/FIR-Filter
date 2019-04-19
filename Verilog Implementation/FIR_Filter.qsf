@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone IV GX"
 set_global_assignment -name DEVICE EP4CGX150DF31C7
-set_global_assignment -name TOP_LEVEL_ENTITY top
+set_global_assignment -name TOP_LEVEL_ENTITY testbench_filter
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:49:04  APRIL 13, 2019"
 set_global_assignment -name LAST_QUARTUS_VERSION "17.1.0 Lite Edition"
@@ -48,16 +48,12 @@ set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
 set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
-set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_TIME_SCALE "1 ns" -section_id eda_simulation
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name VERILOG_FILE tap.v
 set_global_assignment -name VERILOG_FILE shift_tap.v
 set_global_assignment -name VERILOG_FILE zero_tap.v
-set_global_assignment -name VERILOG_FILE top.v
 set_global_assignment -name VERILOG_FILE Signal_Generator.v
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_location_assignment PIN_AE26 -to CLOCK_50
@@ -71,5 +67,18 @@ set_location_assignment PIN_N24 -to result[3]
 set_location_assignment PIN_P21 -to result[2]
 set_location_assignment PIN_R24 -to result[1]
 set_location_assignment PIN_P25 -to result[0]
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name SDC_FILE SDC1.sdc
+set_global_assignment -name VERILOG_FILE fir_filter.v
+set_global_assignment -name VERILOG_FILE testbench_filter.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS NOT_USED -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH testbench_filter -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME testbench_filter -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id testbench_filter
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME testbench_filter -section_id testbench_filter
+set_global_assignment -name EDA_TEST_BENCH_FILE testbench_filter.v -section_id testbench_filter
+set_global_assignment -name EDA_RUN_TOOL_AUTOMATICALLY ON -section_id eda_simulation
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR simulation/modelsim -section_id eda_simulation
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
